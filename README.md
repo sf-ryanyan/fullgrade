@@ -9,6 +9,8 @@ Drop in a clip or a whole folder. Get back footage that is evenly exposed, corre
 
 `MIT License` · `ffmpeg + Python` · `No GPU` · `No cloud API` · `macOS · Windows · Linux`
 
+🔗 **[github.com/sf-ryanyan/fullgrade](https://github.com/sf-ryanyan/fullgrade)** · 📦 **[Download the latest release · 下载最新版](https://github.com/sf-ryanyan/fullgrade/releases/latest)**
+
 [English](#-english) · [中文](#-中文)
 
 </div>
@@ -61,7 +63,7 @@ Each preset is also shipped as a `.cube` LUT in `luts/` for Premiere Pro, DaVinc
 
 ### 🚀 How to use
 
-1. **Install the skill** — upload the `fullgrade` folder (zipped) on the Skills page of Claude's settings, or copy it into `~/.claude/skills/` for Claude Code.
+1. **Install the skill** — download `fullgrade.zip` from the [latest release](https://github.com/sf-ryanyan/fullgrade/releases/latest) and upload it on the Skills page of Claude's settings, or unzip it into `~/.claude/skills/` for Claude Code.
 2. **Install ffmpeg** (once):
    - macOS: `brew install ffmpeg`
    - Windows: `winget install ffmpeg`
@@ -164,7 +166,7 @@ Fullgrade changes only copies of your files, never the originals. Automatic grad
 
 ### 🚀 使用方法
 
-1. **安装技能**：把 `fullgrade` 文件夹打包成 zip，在 Claude 设置的技能（Skills）页面上传；Claude Code 用户复制到 `~/.claude/skills/`。
+1. **安装技能**：从 [最新版本页面](https://github.com/sf-ryanyan/fullgrade/releases/latest) 下载 `fullgrade.zip`，在 Claude 设置的技能（Skills）页面上传；Claude Code 用户解压到 `~/.claude/skills/`。
 2. **安装 ffmpeg**（只需一次）：
    - Mac：`brew install ffmpeg`
    - Windows：`winget install ffmpeg`
@@ -205,8 +207,8 @@ Fullgrade 只处理文件副本，不会修改原文件。自动调色是很好�
 
 ## 👤 About the author · 关于作者
 
-Built by **Ryan Yan, a data analyst.**
-由 **Ryan Yan（数据分析师）** 开发。
+Built by **Ryan Yan, a data analyst.** Issues and suggestions are welcome on [GitHub Issues](https://github.com/sf-ryanyan/fullgrade/issues).
+由 **Ryan Yan（数据分析师）** 开发。欢迎在 [GitHub Issues](https://github.com/sf-ryanyan/fullgrade/issues) 提问题和建议。
 
 ## ©️ Copyright & License · 版权与许可
 
