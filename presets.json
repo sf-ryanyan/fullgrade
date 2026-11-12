@@ -1,0 +1,45 @@
+{
+  "_comment": "Fullgrade look presets. Add your own by copying a block. All numbers are gentle on purpose. target/ceil = comfortable brightness band (0-1); wb = how much colour cast to remove (0-1); contrast/sat_target/sat_bias/warmth/lift/split = look; knee = where highlights start to roll off; sharpen = unsharp amount.",
+  "natural": {
+    "name": {"en": "Natural", "zh": "自然校正"},
+    "aliases": ["natural", "default", "auto", "neutral", "自然", "自然原色", "原色", "自然校正", "默认"],
+    "target": 0.46, "ceil": 0.64, "wb": 0.60, "black": 0.03, "white": 0.95,
+    "contrast": 0.05, "sat_target": 0.15, "sat_bias": 1.00, "warmth": 0.0,
+    "lift": 0.0, "split": 0.0, "knee": 0.92, "sharpen": 0.0
+  },
+  "real-estate": {
+    "name": {"en": "Real Estate Bright & Airy", "zh": "房产明亮通透"},
+    "aliases": ["real-estate", "realestate", "property", "interior", "bright", "airy", "房产", "房产明亮通透", "明亮", "通透", "室内设计"],
+    "target": 0.52, "ceil": 0.68, "wb": 0.80, "black": 0.025, "white": 0.96,
+    "contrast": 0.10, "sat_target": 0.17, "sat_bias": 1.05, "warmth": -0.008,
+    "lift": 0.035, "split": 0.0, "knee": 0.88, "sharpen": 0.35
+  },
+  "warm": {
+    "name": {"en": "Warm Interior", "zh": "温暖室内"},
+    "aliases": ["warm", "cozy", "温暖", "温暖室内", "暖色", "温馨"],
+    "target": 0.46, "ceil": 0.62, "wb": 0.45, "black": 0.03, "white": 0.95,
+    "contrast": 0.07, "sat_target": 0.17, "sat_bias": 1.03, "warmth": 0.035,
+    "lift": 0.02, "split": 0.0, "knee": 0.90, "sharpen": 0.2
+  },
+  "vivid": {
+    "name": {"en": "Vivid", "zh": "鲜艳"},
+    "aliases": ["vivid", "food", "product", "pop", "鲜艳", "美食", "产品", "艳丽"],
+    "target": 0.48, "ceil": 0.64, "wb": 0.65, "black": 0.025, "white": 0.96,
+    "contrast": 0.12, "sat_target": 0.22, "sat_bias": 1.12, "warmth": 0.01,
+    "lift": 0.01, "split": 0.0, "knee": 0.90, "sharpen": 0.25
+  },
+  "cool-modern": {
+    "name": {"en": "Cool Modern", "zh": "清冷现代"},
+    "aliases": ["cool-modern", "cool", "modern", "clean", "tech", "清冷", "清冷现代", "现代", "冷色", "科技"],
+    "target": 0.50, "ceil": 0.66, "wb": 0.80, "black": 0.025, "white": 0.96,
+    "contrast": 0.09, "sat_target": 0.14, "sat_bias": 0.95, "warmth": -0.03,
+    "lift": 0.02, "split": 0.0, "knee": 0.90, "sharpen": 0.2
+  },
+  "cinematic": {
+    "name": {"en": "Cinematic", "zh": "电影感"},
+    "aliases": ["cinematic", "film", "movie", "vlog", "电影", "电影感", "胶片"],
+    "target": 0.42, "ceil": 0.56, "wb": 0.60, "black": 0.035, "white": 0.94,
+    "contrast": 0.14, "sat_target": 0.14, "sat_bias": 0.92, "warmth": 0.0,
+    "lift": 0.0, "split": 0.035, "knee": 0.86, "sharpen": 0.0
+  }
+}
